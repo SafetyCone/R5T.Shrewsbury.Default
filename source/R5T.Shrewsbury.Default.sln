@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Lombardy.Base", "..\..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Cherusci", "..\..\R5T.Cherusci\source\R5T.Cherusci\R5T.Cherusci.csproj", "{34410689-C292-41EF-B46B-7A623DE9390E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Shrewsbury", "..\..\R5T.Shrewsbury\source\R5T.Shrewsbury\R5T.Shrewsbury.csproj", "{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,18 @@ Global
 		{34410689-C292-41EF-B46B-7A623DE9390E}.Release|x64.Build.0 = Release|Any CPU
 		{34410689-C292-41EF-B46B-7A623DE9390E}.Release|x86.ActiveCfg = Release|Any CPU
 		{34410689-C292-41EF-B46B-7A623DE9390E}.Release|x86.Build.0 = Release|Any CPU
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}.Debug|x64.Build.0 = Debug|Any CPU
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}.Debug|x86.Build.0 = Debug|Any CPU
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}.Release|x64.ActiveCfg = Release|Any CPU
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}.Release|x64.Build.0 = Release|Any CPU
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}.Release|x86.ActiveCfg = Release|Any CPU
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +136,7 @@ Global
 		{CE5B1B43-9FD4-4D44-8844-CAB78967D685} = {B55F158A-C87D-48CC-88D7-ECA5649B38BD}
 		{C76C8C0E-3AD2-4EE8-8592-DEA1FB1444C4} = {B55F158A-C87D-48CC-88D7-ECA5649B38BD}
 		{34410689-C292-41EF-B46B-7A623DE9390E} = {B55F158A-C87D-48CC-88D7-ECA5649B38BD}
+		{BFAA3B99-D237-4D93-961F-DD3EB423ABA6} = {B55F158A-C87D-48CC-88D7-ECA5649B38BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D217E25-ABE2-4E28-A4C3-0C60A2996332}
