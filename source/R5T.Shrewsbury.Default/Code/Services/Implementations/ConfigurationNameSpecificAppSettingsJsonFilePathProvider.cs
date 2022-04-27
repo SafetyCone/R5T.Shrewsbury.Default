@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 
 using R5T.Ives;
-using R5T.Lombardy;
+using R5T.Lombardy;using R5T.T0064;
 
 
 namespace R5T.Shrewsbury.Default
-{
-    public class ConfigurationNameSpecificAppSettingsJsonFilePathProvider : IConfigurationNameSpecificAppSettingsJsonFilePathProvider
+{[ServiceImplementationMarker]
+    public class ConfigurationNameSpecificAppSettingsJsonFilePathProvider : IConfigurationNameSpecificAppSettingsJsonFilePathProvider,IServiceImplementation
     {
         private IAppSettingsDirectoryPathProvider AppSettingsDirectoryPathProvider { get; }
         private IConfigurationNameProvider ConfigurationNameProvider { get; }

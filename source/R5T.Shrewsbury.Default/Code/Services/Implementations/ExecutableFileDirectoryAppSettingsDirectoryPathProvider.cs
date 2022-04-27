@@ -1,6 +1,8 @@
-﻿using System;
+using System;
 
 using R5T.Macommania;
+
+using R5T.T0064;
 
 
 namespace R5T.Shrewsbury.Default
@@ -8,12 +10,14 @@ namespace R5T.Shrewsbury.Default
     /// <summary>
     /// Assumes that appsettings files are in the same directory as the executable.
     /// </summary>
-    public class ExecutableFileDirectoryAppSettingsDirectoryPathProvider : IAppSettingsDirectoryPathProvider
+    [ServiceImplementationMarker]
+    public class ExecutableFileDirectoryAppSettingsDirectoryPathProvider : IAppSettingsDirectoryPathProvider, IServiceImplementation
     {
         private IExecutableFileDirectoryPathProvider ExecutableFileDirectoryPathProvider { get; set; }
 
 
-        public ExecutableFileDirectoryAppSettingsDirectoryPathProvider(IExecutableFileDirectoryPathProvider executableFileDirectoryPathProvider)
+        public ExecutableFileDirectoryAppSettingsDirectoryPathProvider(
+            IExecutableFileDirectoryPathProvider executableFileDirectoryPathProvider)
         {
             this.ExecutableFileDirectoryPathProvider = executableFileDirectoryPathProvider;
         }

@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
-using R5T.Lombardy;
+using R5T.Lombardy;using R5T.T0064;
 
 
 namespace R5T.Shrewsbury.Default
-{
-    public class AppSettingsFilePathProvider : IAppSettingsFilePathProvider
+{[ServiceImplementationMarker]
+    public class AppSettingsFilePathProvider : IAppSettingsFilePathProvider,IServiceImplementation
     {
         private IAppSettingsDirectoryPathProvider AppSettingsDirectoryPathProvider { get; }
         private IStringlyTypedPathOperator StringlyTypedPathOperator { get; }

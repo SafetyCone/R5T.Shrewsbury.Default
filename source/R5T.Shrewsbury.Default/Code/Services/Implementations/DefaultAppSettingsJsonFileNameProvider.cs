@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Shrewsbury.Default
-{
-    public class DefaultAppSettingsJsonFileNameProvider : IDefaultAppSettingsJsonFileNameProvider
+{[ServiceImplementationMarker]
+    public class DefaultAppSettingsJsonFileNameProvider : IDefaultAppSettingsJsonFileNameProvider,IServiceImplementation
     {
         public string GetDefaultAppSettingsJsonFileName()
         {

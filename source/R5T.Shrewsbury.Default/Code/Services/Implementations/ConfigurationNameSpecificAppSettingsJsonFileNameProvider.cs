@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Shrewsbury.Default
-{
-    public class ConfigurationNameSpecificAppSettingsJsonFileNameProvider : IConfigurationNameSpecificAppSettingsJsonFileNameProvider
+{[ServiceImplementationMarker]
+    public class ConfigurationNameSpecificAppSettingsJsonFileNameProvider : IConfigurationNameSpecificAppSettingsJsonFileNameProvider,IServiceImplementation
     {
         private IConfigurationNameToAppSettingsFileNameTokenConverter ConfigurationNameToAppSettingsFileNameTokenConverter { get; }
 

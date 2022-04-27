@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Shrewsbury.Default
-{
-    public class CurrentDirectoryAppSettingsDirectoryPathProvider : IAppSettingsDirectoryPathProvider
+{[ServiceImplementationMarker]
+    public class CurrentDirectoryAppSettingsDirectoryPathProvider : IAppSettingsDirectoryPathProvider,IServiceImplementation
     {
         public string GetAppSettingsDirectoryPath()
         {
